@@ -68,7 +68,7 @@ body a,form li,input[type="submit"],input[type="text"],.sixth-login input[type="
 }
 
 .login-form {
-	background: #b6ccfe;
+	background: #F8BBD0;
 	position: relative;
 	width: 30%;
 	margin: 8% auto 0 auto;
@@ -83,7 +83,8 @@ body a,form li,input[type="submit"],input[type="text"],.sixth-login input[type="
 }
 .avatar img {
   margin: 2em 0 0;
-  border: 2px solid #23232E;
+  border: 2px solid #ff80ab;
+  border-radius: 40%;
 
 }
 .head-info {
@@ -141,7 +142,7 @@ input[type="submit"]{
   color: #fff;
   font-family: "Source Sans Pro", sans-serif;
   outline: none;
-  background: #6756ea;
+  background: #ff80ab;
   width: 100%;
   padding: 18px 0;
   border: none;
