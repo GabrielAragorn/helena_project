@@ -185,7 +185,6 @@
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
-
 		background: #000000 url("images/bg_final.gif") bottom left; /* ALTERADO de bg.jpg para bg.png */
 		zoom: 0.5;
 		background-repeat: repeat-x;

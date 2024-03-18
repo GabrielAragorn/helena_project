@@ -1,4 +1,4 @@
-document.addEventListener('click', function() {
+document.addEventListener('DOMContentLoaded', function() {
     var audio = document.getElementById('myAudio');
     audio.play();
 });
