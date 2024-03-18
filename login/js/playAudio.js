@@ -1,3 +1,12 @@
+document.addEventListener('click', function() {
+    var audio = document.getElementById('myAudio');
+    audio.play();
+});
+
+document.window('load', function() {
+    var audio = document.getElementById('myAudio');
+    audio.play();
+});
 // var audio = document.getElementById('myAudio');
 // var playLink = document.getElementById('playLink');
 
@@ -16,13 +25,3 @@
 //     var audio = document.getElementById('myAudio');
 //     audio.play();
 // });
-
-document.window('load', function() {
-    var audio = document.getElementById('myAudio');
-    audio.play();
-});
-
-document.addEventListener('click', function() {
-    var audio = document.getElementById('myAudio');
-    audio.play();
-});
