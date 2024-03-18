@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Deu tudo certooooooo!</title>
+        <link rel="shortcut icon" href="assets/css/images/favicon.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- CSS -->
+        <link rel="stylesheet" href="assets/css/main_final.css" />
+        <link rel="stylesheet" href="assets/css/font-awesome-animation.min.css" >
+
+	</head>
+	<body class="loading">
+		<!-- Música de Fundo -->
+        <audio src="assets/audio/Lucky.mp3" controls autoplay loop></audio>
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+                <!-- Header -->
+				<header id="header">
+				    <h1>Merci, ma princesse! J't'aime. Te love you.</h1>
+					<h1>Eu te amo. 🐺 &#128152 🐇</h1>
+					<p>"O amor cura todas as feridas"<hr width="20px"> Vó Carmita</p>
+					<!-- <nav>
+				        <ul>
+				            <li><a href="#" class="icon fa-question faa-pulse animated" onclick="alerta()"><span class="label">heart</span></a></li>
+				        </ul>
+				    </nav> -->
+				</header>
+				
+				<!-- Footer -->
+				<footer id="footer">
+				    <p> Gabriel &ensp;<span class="icon fa-heart"></span>&ensp; Helena</p>
+				</footer>
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+			function alerta() {
+				alert("Feche seus olhos!")
+			}
+		</script>
+	</body>
+</html>
