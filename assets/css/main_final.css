@@ -260,6 +260,7 @@
 	}
 
 	#bg {
+		background-position: center;
 		background-size: 2250px auto;
 		width: 6750px;
 	}
