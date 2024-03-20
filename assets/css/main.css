@@ -182,7 +182,7 @@
 		-moz-animation: bg 60s linear infinite;
 		-webkit-animation: bg 60s linear infinite;
 		-ms-animation: bg 60s linear infinite;
-		animation: bg 60s linear infinite;
+		animation: bg 20s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -334,8 +334,6 @@
 /* Main */
 
 	#main {
-		display: flex;
-		justify-content: center;
 		height: 100%;
 		left: 0;
 		position: fixed;
@@ -503,7 +501,7 @@
 		-moz-animation: header 1s 17s forwards;
 		-webkit-animation: header 1s 17s forwards;
 		-ms-animation: header 1s 17s forwards;
-		animation: header 1s 16s forwards;
+		animation: header 1s 10s forwards; /* change when the proposal appears */
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
